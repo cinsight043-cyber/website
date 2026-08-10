@@ -1,0 +1,131 @@
+{
+  "school_profile": {
+    "main": {
+      "name": "SDN 004 Sebatik Tengah",
+      "npsn": "30401890",
+      "accreditation": "B",
+      "principalName": "Sittiara Razak, S.Pd.I.",
+      "tagline": "Mewujudkan Generasi Cerdas, Berkarakter, dan Berprestasi",
+      "slogan": "KEMENDIKDASMEN RAMAH – Responsif, Akuntabel, Melayani, Adaptif, Harmoni",
+      "hashtag": "#PENDIDIKANBERMUTUUNTUKSEMUA",
+      "address": "Desa Sungai Limau, Kecamatan Sebatik Tengah, Kabupaten Nunukan, Kalimantan Utara",
+      "phone": "+62 821-5432-1004",
+      "email": "sdn004sebatikten@gmail.com",
+      "whatsapp": "+62 821-5432-1004",
+      "stats": {
+        "students": 184,
+        "teachers": 14,
+        "staff": 4,
+        "classes": 6
+      },
+      "vision": "Terwujudnya Peserta Didik yang Beriman, Budi Pekerti Luhur, Cerdas, Terampil, dan Berwawasan Lingkungan di Wilayah Perbatasan Negara.",
+      "mission": [
+        "Menanamkan nilai-nilai keagamaan dan budi pekerti luhur dalam kehidupan sehari-hari.",
+        "Layanan pendidikan berkualitas dengan Kurikulum Merdeka yang adaptif dan inklusif.",
+        "Mengembangkan minat, bakat, serta kemampuan teknologi digital & AI anak sejak dini.",
+        "Membangun lingkungan sekolah yang RAMAH (Responsif, Akuntabel, Melayani, Adaptif, Harmoni)."
+      ]
+    }
+  },
+  "news": {
+    "news-1": {
+      "title": "SDN 004 Sebatik Tengah Gelar Pelatihan Coding & AI Anak untuk Siswa Kelas 4-6",
+      "slug": "pelatihan-coding-ai-anak",
+      "category": "Teknologi & Edukasi",
+      "summary": "Siswa-siswi sangat antusias mengikuti pengenalan logika pemrograman visual dan kecerdasan buatan dasar di laboratorium komputer sekolah.",
+      "content": "SDN 004 Sebatik Tengah berinovasi dalam pembelajaran dengan meluncurkan program pengenalan Coding dan AI bagi siswa Sekolah Dasar di daerah perbatasan Sebatik Tengah. Kegiatan ini bertujuan menyiapkan generasi yang siap menghadapi era digital.",
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "author": "Humas SDN 004",
+      "publishedAt": "2026-08-01",
+      "isFeatured": true
+    },
+    "news-2": {
+      "title": "Upacara Bendera dan Peringatan Hari Pendidikan di Wilayah Perbatasan Nunukan",
+      "slug": "upacara-bendera-hari-pendidikan",
+      "category": "Kegiatan Sekolah",
+      "summary": "Seluruh majelis guru dan murid SDN 004 Sebatik Tengah mengikuti upacara bendera dengan khidmat berpakaian adat nusantara.",
+      "content": "Kegiatan upacara bendera memperingati semangat pendidikan berkualitas untuk semua anak bangsa di daerah perbatasan Kalimantan Utara berjalan sangat khidmat dan meriah.",
+      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1000&q=80",
+      "author": "Tim Kesiswaan",
+      "publishedAt": "2026-07-28",
+      "isFeatured": false
+    }
+  },
+  "announcements": {
+    "ann-1": {
+      "title": "Jadwal Pembagian Laporan Hasil Belajar Semester dan Pengumuman Kelulusan",
+      "date": "2026-08-05",
+      "category": "Akademik",
+      "content": "Diberitahukan kepada seluruh Orang Tua/Wali Murid bahwa pembagian Raport akan dilaksanakan pada Sabtu, 15 Agustus 2026 pukul 08.00 WITA.",
+      "status": "Aktif",
+      "isPinned": true
+    },
+    "ann-2": {
+      "title": "Pembukaan Pendaftaran Murid Baru (SPMB) Tahun Ajaran 2026/2027",
+      "date": "2026-08-02",
+      "category": "SPMB",
+      "content": "Pendaftaran Murid Baru SDN 004 Sebatik Tengah dibuka secara gratis (Tanpa Biaya). Silakan daftarkan putra-putri Anda melalui menu SPMB Online di website ini.",
+      "status": "Aktif",
+      "isPinned": true
+    }
+  },
+  "teachers": {
+    "t-1": {
+      "name": "Sittiara Razak, S.Pd.I.",
+      "nip": "19780512 200501 2 008",
+      "position": "Kepala Sekolah",
+      "subject": "Manajemen Sekolah & Agama Islam",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    },
+    "t-2": {
+      "name": "Ahmad Kusuma, S.Pd.",
+      "nip": "19850315 201001 1 012",
+      "position": "Guru Kelas 6 & Pembina Pramuka",
+      "subject": "Guru Kelas VI",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    },
+    "t-3": {
+      "name": "Nurhayati, S.Pd.",
+      "nip": "19900220 201502 2 005",
+      "position": "Guru Kelas 1 & Pembina Seni",
+      "subject": "Guru Kelas I",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=600&q=80"
+    }
+  },
+  "achievements": {
+    "ach-1": {
+      "title": "Juara 1 Lomba Sains & Matematika SD Cerdas Berkarakter",
+      "studentName": "Raihan Ardiansyah (Kelas 5)",
+      "level": "Kabupaten Nunukan",
+      "category": "Akademik",
+      "year": "2026",
+      "imageUrl": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80"
+    },
+    "ach-2": {
+      "title": "Juara 1 Lomba Coding Visual Kids Perbatasan",
+      "studentName": "Tim Robotik Mini SDN 004",
+      "level": "Provinsi Kalimantan Utara",
+      "category": "Coding & AI",
+      "year": "2026",
+      "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  "extracurriculars": {
+    "ex-1": {
+      "name": "Pramuka Penggalang & Siaga",
+      "category": "Kepramukaan",
+      "schedule": "Setiap Sabtu, 15.00 - 17.00 WITA",
+      "instructor": "Ahmad Kusuma, S.Pd.",
+      "description": "Membentuk kedisiplinan, jiwa kepemimpinan, dan kecintaan pada tanah air di kawasan perbatasan.",
+      "imageUrl": "https://images.unsplash.com/photo-1526976668912-1a811878dd37?auto=format&fit=crop&w=800&q=80"
+    },
+    "ex-2": {
+      "name": "Klub Coding & AI Kids",
+      "category": "Sains & Teknologi",
+      "schedule": "Setiap Rabu, 14.00 - 15.30 WITA",
+      "instructor": "Tim Digital Guru SDN 004",
+      "description": "Melatih logika pemrograman visual, animasi Scratch, dan konsep AI sederhana secara seru.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+    }
+  }
+}
