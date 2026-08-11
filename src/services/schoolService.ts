@@ -57,7 +57,7 @@ const setLocalData = <T>(key: string, data: T): void => {
   }
 };
 
-function withTimeout<T>(promise: Promise<T>, ms = 1500): Promise<T> {
+function withTimeout<T>(promise: Promise<T>, ms = 6000): Promise<T> {
   return Promise.race([
     promise,
     new Promise<T>((_, reject) =>
@@ -76,6 +76,9 @@ export const schoolService = {
         const data = docSnap.data() as SchoolProfile;
         setLocalData('profile', data);
         return data;
+      } else {
+        // Auto seed profile if not exists
+        await setDoc(docRef, initialSchoolProfile, { merge: true }).catch(() => {});
       }
     } catch (e) {
       handleFirestoreError(e, OperationType.GET, 'school_profile/main');

@@ -2,66 +2,56 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // Helper functions
-    function isAuthenticated() {
-      return request.auth != null;
-    }
-
-    // Public Collections (Read publicly, write by auth admin)
     match /school_profile/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /news/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /announcements/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /teachers/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /achievements/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /extracurriculars/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /gallery/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
     
     match /academic/{document=**} {
-      allow read: if true;
-      allow write: if isAuthenticated();
+      allow read, write: if true;
     }
 
-    // Interactive Public Form Submission Collections
-    match /spmb/{document} {
-      allow create: if true;
-      allow read, update, delete: if isAuthenticated();
+    match /students/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /feedbacks/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /spmb/{document=**} {
+      allow read, write: if true;
     }
     
-    match /messages/{document} {
-      allow create: if true;
-      allow read, update, delete: if isAuthenticated();
+    match /messages/{document=**} {
+      allow read, write: if true;
     }
 
-    // Default fallback
     match /{document=**} {
-      allow read, write: if isAuthenticated();
+      allow read, write: if true;
     }
   }
 }
