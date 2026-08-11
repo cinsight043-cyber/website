@@ -136,7 +136,7 @@ export default function App() {
       setAdminPassword('');
       setLoginError('');
     } else {
-      setLoginError('Username atau password salah! (Gunakan demo: admin / admin123)');
+      setLoginError('Username atau password salah! Silakan periksa kembali.');
     }
   };
 
@@ -319,12 +319,6 @@ export default function App() {
         maxWidth="md"
       >
         <form onSubmit={handleAdminLogin} className="space-y-4 text-xs">
-          <div className="bg-blue-50 border border-blue-200 p-3 rounded-xl text-blue-900 leading-relaxed">
-            <strong>Kredensial Admin Demo:</strong>
-            <br />
-            Username: <code className="bg-white px-1 py-0.5 rounded border">admin</code> | Password: <code className="bg-white px-1 py-0.5 rounded border">admin123</code>
-          </div>
-
           {loginError && (
             <div className="p-3 bg-rose-50 border border-rose-200 text-rose-800 rounded-xl font-medium">
               {loginError}
